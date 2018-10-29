@@ -1,0 +1,78 @@
+.register{
+	margin: 0 auto;
+	width: 450px;
+	height: 500px;
+	background: green;
+}
+.register h3{
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 45px;
+	line-height: 48px;
+	text-align: center;
+	background: pink;
+	font-size: 28px;
+}
+.register h3 strong{
+	color: red;
+	margin: 0;
+}
+.register hr{
+	margin: 0;
+}
+.register  label{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	color: white;
+}
+.register input{
+	display: block;
+	width: 89%;
+	margin-left: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: gray;
+	background: #FCF3F7;
+	border-radius: 5px;
+	padding-left: 35px;
+}
+.register input:focus{
+	color: red;
+	background: pink;
+}
+.register input.fullname{
+	background-position: right;
+	background-image: url('https://image.flaticon.com/icons/svg/126/126486.svg');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+.register input.email{
+	background-image: url('https://image.flaticon.com/icons/svg/126/126516.svg');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: left 2px top 2px;
+}
+.register input.contact{
+	background-image: url('https://image.flaticon.com/icons/svg/1034/1034131.svg');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+.register input.address{
+	background-image: url('https://image.flaticon.com/icons/svg/149/149229.svg');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+.register input.send{
+	margin: 0 auto;
+	padding-left: 0;
+	margin-top: 10px;
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: red;
+	border: 0px;
+	color: white;
+}

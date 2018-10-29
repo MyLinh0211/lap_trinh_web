@@ -1,0 +1,56 @@
+.box{
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin: 0 auto;
+/*dung hieu ung transition- muot hon*/
+	/*thuoc tinh nao se đc chuyển đổi*/
+   	transition-property: background, border-radius;
+   	/*tốc độ chuyển đổi */
+   	transition-duration: 1s;
+   	/*hinh thuc thay doi */
+   	transition-timing-function: ease-in-out;
+}
+.box:hover{
+	background: red;
+	border-radius: 50%;
+	/*di chuyen khi hover*/
+	transform: translate(300px, 200px);
+	/*xoay doi tuong theo do goc*/
+	transform: rotate(100deg) scale(2);
+	/*tăng giam kich thuoc*/
+	/*transform: scale(2);*/
+}
+.container{
+	width: 1024px;
+	height: 100px;
+	background: red;
+	position: relative;
+	top: 50px;
+}
+.container .box1{
+	width: 100px;
+	height: 100px;
+	background: pink;
+	transition: background, width;
+	transition-duration: 2s;
+}
+.box1:hover{
+	width: 900px;
+	background: gray;
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	left: 100px;
+	top: 0;
+	transition-duration: 2s;
+}
+.box1:hover +.box2{
+	transform: scale(2,1) translate(200px,0);
+	transform: rotate(360deg);
+	 
+}

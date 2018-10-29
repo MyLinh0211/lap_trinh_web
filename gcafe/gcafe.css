@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	position: relative;
+}
+.container .search{
+	width: 60%;
+	position: absolute;
+	top: 20px;
+	left:25%;
+}
+.container .search label{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+}
+.container .head{
+	width: 50%;
+	height: 50px;
+	position: absolute;
+	top: 60px;
+	left: 25%;
+	position: relative;
+}
+.container .head .logo{
+	width: 15%;
+	height: 50px;
+	position: absolute;
+}
+.container .head .logo img{
+	width: 100%;
+	height: 100%;
+}
+.container .head .menu{
+	float: right;
+	width: 85%;
+	height: 50px;
+}
+.container .head.menu ul{	
+}
+.container .head .menu ul li{
+	float: left;
+	width: auto;
+	list-style: none;
+	margin-left: 10px;
+}
+.container .head .menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	line-height: 50px;
+}
+.container .head .menu ul li a:hover{
+	color: blue;
+}
+.container .head .menu ul li img{
+	width: 15px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+.container .head .menu ul li.sanpham ul{
+	display: none;
+	width: 310px;
+	height: auto;
+	background: white;
+	position: absolute;
+	z-index: 100;
+}
+.container .head .menu ul li.sanpham:hover ul{
+	display: block;
+}
+.container .head .menu ul li.sanpham ul li{
+	display: block;
+	width: 290px;
+	height: 40px;
+	border-bottom: 1px solid gray;
+}
+.container .head .menu ul li.sanpham ul li a{
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+}
+.container .pic{
+	width: 90%;
+	height: 400px;
+	background: pink;
+	position: absolute;
+	top: 150px;
+	left: 5%;
+}
+.container .pic img{
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+}
+.container .pic ul{
+	list-style-type: none;
+}
+.container .pic ul li{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+.container .pic ul li.next{
+	bottom: 45%;
+	right: 0px;
+	background-image: url('../gcafe/pic/next.png');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: right 10px top 10px;
+}
+.container .pic ul li.back{
+	bottom: 45%;
+	left: 0px;
+	background-image: url('../gcafe/pic/next.png');
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: right 10px top 10px;
+	transform: rotate(180deg);
+}
+.container .content{
+	width: 60%;
+	height: 250px;
+	background: pink;
+	position: absolute;
+	top: 580px;
+	left: 20%;
+}
+.container .content .con{
+	float: left;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 25px;
+	left: 10%;
+}
+.container .content .con .box{
+	float: left;
+	width: 20%;
+	height: 200px;
+}
+.container .content .con .box img{
+	width: 100%;
+	height: 100%;
+}
+/*.container .content .con .box:hover{	
+}*/
+.container .content .con .box .box1{
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	width: 200px;
+	height: 200px;
+	background:rgba(0,0,0,0.5); 
+}
+.container .content .con .box .box1 h4{
+	color: white;
+	font-size: 20px;
+	line-height: 25px;
+}
+.container .content .con .box .box1 p{
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+}
+.container .content .con .box .box1 a{
+	display: block; 
+	width: 100px;
+	height: 30px;
+	border: 1px solid white;	
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	color: white;
+	position: absolute;
+	left: 30px;	
+}
+.container .content .con .box .box1 a:hover{
+	color: red;
+}
+.container .content .con .box:hover .box1{
+	display: block;
+}

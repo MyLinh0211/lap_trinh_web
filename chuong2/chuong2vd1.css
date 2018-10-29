@@ -1,0 +1,29 @@
+.box{
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	background: green;
+}
+.box h3{
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	background: blue;
+	/* tao khoi cho the tieu de*/
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	/* ket thuc tao khoi - block */
+	text-transform: uppercase;
+
+}
+.box p{
+	margin: 0 ;
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+	padding: 5px 3px;
+	text-indent: 50px;
+
+}

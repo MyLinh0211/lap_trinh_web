@@ -1,0 +1,51 @@
+.khung{
+	width: 1000px;
+	height: 600px;
+	background: white;
+	margin: 0 auto;
+}
+.khung .logo{
+	float: left;
+	width: 19.6%;
+	height: 15%;
+	background: #F0F8FF;
+	margin-top: 2PX;
+	margin-left: 2PX;
+	margin-bottom: 2PX;
+	margin-right: 2px;
+}
+.khung .header{
+	float: left;
+	width: 80%;
+	height: 15%;
+	background: #F08080;
+	margin-bottom: 2px;
+}
+.khung .mainmenu{
+	clear: both;
+	float: left;
+	width: 20%;
+	height: 70%;
+	background: #F0E68C;
+	margin-bottom: 2px;
+}
+.khung .contentarea{
+	float: left;
+	width: 59.5%;
+	height: 70%;
+	background: #FAFAD2;
+	margin-left: 2px;
+}
+.khung .submenu{
+	float: left;
+	width: 20%;
+	height: 70%;
+	background: #9370D8;
+	margin-left: 2px;
+}
+.khung .footer{
+	clear: both;
+	width: 100%;
+	height: 15%;
+	background: #9ACD32;
+}

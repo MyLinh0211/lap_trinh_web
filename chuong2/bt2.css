@@ -1,0 +1,111 @@
+.khung{
+	margin: 0 auto;
+	width: 1000px;
+	height: 400px;
+	background: pink;
+}
+.khung .box1{
+	float: left;
+	width: 650px;
+	height: auto;
+	background: pink;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+
+}
+h2{
+	margin: 0;
+	color: black;
+	padding: 5px 10px;
+	line-height: 5px;
+	margin-top: 30px;
+	font-size: 17px;
+}
+h6{
+	margin: 0;
+	color: black;
+	line-height: 5px;
+	padding: 5px 10px;
+	font-weight: lighter;
+	opacity: 0.3;
+	
+}
+.khung .box2{
+	float: left;
+	width: 280px;
+	height: auto;
+	background: pink;
+}
+.khung .box3{
+	clear: both;
+	float: left;
+	width: 650px;
+	height: auto;
+	background: pink;
+	margin-right: 40px;
+	margin-left: 30px;
+
+}
+.khung .box3 .b1{
+	width: 650px;
+	height: auto;
+	background: pink;
+	margin-bottom: 60px;
+
+}
+.khung .box3 .b1 p{
+	margin: 0;
+	padding: 5px 10px;
+}
+.khung .box3 .b2{
+	width: 650px;
+	height: auto;
+	background: pink;
+}
+.khung .box3 .b2 p{
+	margin: 0;
+	padding: 5px 10px;
+}
+.khung .box4{
+	float: left;
+	width: 280px;
+	height:auto;
+	background: pink;
+
+}
+.khung .box4 .b3{
+	width: 280px;
+	height: auto;
+	background: pink;
+	margin-bottom: 20px;
+}
+.khung .box4 .b3 p{
+	margin: 0;
+	color: black;
+	padding: 5px 10px;
+}
+.khung .box4 .b4{
+	float: left;
+	width: 80px;
+	height: auto;
+	background: pink;
+	margin-right: 20px;
+
+}
+.khung .box4 .b5{
+	float: left;
+	width: 180px;
+	height: auto;
+	background: pink;
+}
+.khung .box4 .b4 p{
+	color: black;
+	padding: 0px 10px;
+
+}
+.khung .box4 .b5 p{
+	color: black;
+	opacity: 0.3;
+
+}

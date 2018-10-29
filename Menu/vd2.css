@@ -1,0 +1,69 @@
+.menu{
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+	background: green;
+}
+.menu ul{
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.menu ul li{
+	float: left;
+	/* padding: 30px 20px 30px 20px ;
+	background: #778899; */
+	display: block;
+	width: 19.8%;
+	height: 100%;
+	line-height: 80px;
+	text-align: center;
+	border-right: 2px solid white;
+	/*xac dinh moi qhe giua li vs muc con*/
+	position: relative;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	display: block;
+	width: 100%;
+}
+a:hover{
+	color: red;
+}
+.menu ul li:hover{
+	background: blue;
+}
+.menu ul li .active{
+	background: gray;
+	color: yellow;
+}
+.menu ul li .active a{
+	color: yellow;
+}
+.menu ul li .active:hover{
+	background: blue;
+}
+/*An muc con khi chua hover vao li*/
+.menu ul li ul{
+	display: none;
+	position: absolute;
+	left: 30px;
+	z-index: 100;
+}
+.menu ul li:hover ul{
+	display: block;
+}
+/*dih dang phan tu li ben trong ul con*/
+.menu ul li ul li{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background: red;
+	line-height: 40px;
+	text-align: left;
+	padding: 10px;
+}

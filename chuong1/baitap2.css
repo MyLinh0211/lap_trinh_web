@@ -1,0 +1,35 @@
+.khung{
+	width: 850px;
+	height: 600px;
+	background: white;
+	margin: 0 auto;
+
+}
+.khung .box1{
+	width: 100%;
+	height: 80px;
+	background: Chartreuse;
+	margin-bottom: 2px;
+}
+.khung .box2{
+	float: left;
+	width: 24.7%;
+	height: 500px;
+	background: Coral;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+.khung .box3{
+	float: left;
+	width: 75%;
+	height: 500px;
+	background: Yellow;
+	margin-bottom: 2px;
+}
+.khung .box4{
+	clear: left;
+	width: 100%;
+	height: 40px;
+	background: DarkOrchid;
+	
+}

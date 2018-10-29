@@ -1,0 +1,49 @@
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+.container .header{
+	width: 100%;
+	height: 100px;
+	background: red;
+}
+.container .content{
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+}
+.container .content .box{
+	width: 100%;
+	height: 50px;
+	background: blue;
+	margin-bottom: 5px;
+}
+.container .sidebar{
+	float: right;
+	width: 20%;
+	height: 450px;
+	background: blue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container .footer{
+	clear: both;
+	width: 100%;
+	height: 100px;
+	background: blue;
+}
+@media screen and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+	.container .content{
+		width: 20%;
+		height: 400px;
+    }
+	.container .sidebar{
+		width: 100%;
+		height: 200px;
+		margin-bottom: 10px;
+	}
+
+}

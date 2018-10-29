@@ -1,0 +1,78 @@
+.wrapper{
+	width: 980px;
+	height: 700px;
+	/*background: green;*/
+	margin: 0 auto;
+}
+.wrapper .header{
+	width: 100%;
+	height: 100px;
+	background: red;
+}
+.wrapper .content{
+	float: left;
+	width: 70%;
+	height: 500px;
+	background: gray;
+}
+.wrapper .sidebar{
+	float: left;
+	width: 30%;
+	height: 300px;
+	background: green;
+}
+.wrapper .footer{
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background: blue;
+}
+/*thiet bi max - width 960*/
+@media screen and (max-width: 960px){
+	.wrapper{
+		width: 100%;
+	}
+	.wrapper.header{
+		float: left;
+		width: 100%;
+	}
+	.wrapper.content{
+		float: left;
+		width: 70%;
+		background: green;
+	}
+	.wrapper .sidebar{
+		float: left;
+		width: 30%;
+		background: yellow;
+	}
+}
+/*thiet bi smart phone*/
+@media screen and (max-width: 768px){
+	.wrapper{
+		width: 100%;
+	}
+	.wrapper .content{
+		float: left;
+		width: 100%;
+		height: 350px;
+		background: pink;
+	}
+	.wrapper .sidebar{
+		float: left;
+		width: 100%;
+		height: 150px;
+		background: blue;
+	}
+
+}
+/*smart phone thang dung */
+@media screen and (max-width:480px ){
+	.wrapper{
+		width: 100%;
+	}
+	.wrapper .sidebar{
+		display: none;
+	}
+
+}

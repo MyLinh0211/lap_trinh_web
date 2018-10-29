@@ -1,0 +1,51 @@
+.khung{
+	margin: 0 auto;
+	width: 980px;
+	height: 320px;
+	background: green;
+}
+.khung .box1{
+	float: left;
+	width: 480px;
+	height: auto;
+	background: green;
+	margin-right: 20px;
+	
+}
+.khung .box2{
+	float: left;
+	width: 480px;
+	height: auto;
+	background: green;
+	
+	
+}
+.khung .box3{
+	clear: both;
+	float: left;
+	width: 480px;
+	height: auto;
+	background: green;
+	margin-right: 20px;
+}
+.khung .box4{
+	float: left;
+	width: 480px;
+	height: auto;
+	background: green;
+	
+}
+h3{
+	margin: 0;
+	color: white;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 30px;
+
+}
+p{
+	margin: 0;
+	color: black;
+	padding: 5px 30px;
+	text-align: justify;
+}

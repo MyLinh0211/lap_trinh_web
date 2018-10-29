@@ -1,0 +1,57 @@
+.khung{
+	margin: 0 auto;
+	width: 1000px;
+	height: 186px;
+	background: #A0522D;
+}
+.khung .box1{
+	width: 1000px;
+	height: auto;
+	background: #A0522D;
+}
+.khung .box1 .b1{
+	float: left;
+	width: 300px;
+	height: auto;
+	background: #A0522D;
+}
+.khung .box1 .diff{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h2{
+	margin: 0;
+	color: #DCDCDC;
+	padding: 15px 20px;
+	font-size: 20px;
+	opacity: 0.3;
+	font-style: unset;
+
+
+}
+.khung .box2{
+	width: 1000px;
+	height: auto;
+	background: #A0522D;
+}
+.khung .box2 .b2{
+	float: left;
+	width: 300px;
+	height: auto;
+	background: #A0522D;
+}
+.khung .box2 .diff{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+p{
+	margin: 0;
+	padding: 2px 20px;
+	text-align: justify;
+	font-size: 19px;
+	margin-top: 5px;
+	color: #DCDCDC;
+	margin-top: 2px;
+	opacity: 0.8;
+
+}

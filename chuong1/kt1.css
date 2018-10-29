@@ -1,0 +1,69 @@
+.box1{
+	width: 80%;
+	height: 100px;
+	background: red;
+	margin: 0 auto;
+}
+.box2{
+	width: 80%;
+	height: 100px;
+	background: blue;
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+
+}
+.box3{
+	width: 100%;
+	height: 200px;
+	background: green;
+
+}
+.khung{
+	width: 80%;
+	height: 330px;
+	background: green;
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+.khung .box4{
+	width: 100%;
+	height: 80px;
+	background: blue;
+
+}
+.khung .box5{
+	float: left;
+	width: 30%;
+	height: 200px;
+	background: pink;
+	margin-top: 3px;
+
+}
+.khung .diff{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.khung .box6{
+	float: right;
+	width: 30%;
+	height: 44px;
+	background: blue;
+	margin-top: 3px;
+}
+.box7{
+	width: 100%;
+	height: 200px;
+	background: pink;
+
+}
+.box8{
+	width: 80%;
+	height: 50px;
+	background: red;
+	margin: 0 auto;
+	margin-top: 3px;
+}

@@ -1,0 +1,41 @@
+.khung{
+	margin: 0 auto;
+	width: 550px;
+	height: 300px;
+	background: green;
+}
+.khung h3{
+	margin: 0;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background: blue;
+	color: white;
+	padding-left:20px;
+}
+.khung .line{
+	display: block;
+	width: 93%;
+	height: 2px;
+	background: black;
+	margin: 0 auto;
+}
+.khung ul{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 25px;
+	color: white;
+	list-style-type: square;
+}
+.khung ul li a{
+	text-decoration: none;
+	color: white;
+}
+.khung ul li:hover{
+	color: red;
+	list-style-type: circle;
+}
+.khung ul li a:hover{
+	color: red;
+}

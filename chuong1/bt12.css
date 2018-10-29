@@ -1,0 +1,156 @@
+.khung1{
+	width: auto;
+	height: 80px;
+	background: #008B8B;
+	border-bottom: #4682B4 solid 5px;
+	
+
+}
+.khung1 .b1{
+	float: left;
+	width: 1000px;
+	height: 50px;
+	background: white;
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-right: 260px;
+}
+.khung1 .b2{
+	float: left;
+	width: 150px;
+	height: 50px;
+	background: #4169E1;
+	margin-top: 15px;
+	border-radius: 10px;
+
+}
+.khung2{
+	width: auto;;
+	height: 625px;
+	background: #008B8B;
+}
+.khung2 .khung21{
+	float: left;
+	width: 175px;
+	height: 370px;
+	background: #008B8B;
+	border-right: white solid 5px;
+	border-bottom: white solid 5px;
+	margin-top: -2px;
+
+
+}
+.khung2 .khung21 .b3{
+	float: left;
+	width: 150px;
+	height: 50px;
+	background: white;
+	margin-top: 10px;
+	margin-left: 12.5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+
+}
+.khung2 .khung21 .b4{
+	clear: both;
+	width: 150px;
+	height: 50px;
+	background: white;
+	margin-left: 12.5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.khung2 .khung21 .b5{
+	width: 150px;
+	height: 50px;
+	background: white;
+	margin-left: 12.5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.khung2 .khung21 .b6{
+	width: 150px;
+	height: 50px;
+	background: white;
+	margin-left: 12.5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.khung2 .khung21 .b7{
+	width: 150px;
+	height: 50px;
+	background: white;
+	margin-left: 12.5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.khung2 .khung21 .b8{
+	width: 150px;
+	height: 50px;
+	background: white;
+	margin-left: 12.5px;
+	border-radius: 10px;
+}
+.khung2 .b9{
+	float: left;
+	width: 200px;
+	height: 150px;
+	background: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 20px;
+
+
+}
+.khung2 .b10{
+	float: left;
+	width: 850px;
+	height: 150px;
+	background: white;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.khung2 .b11{
+	float: left;
+	width: 200px;
+	height: 150px;
+	background: white;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+.khung2 .b12{
+	float: left;
+	width: 1290px;
+	height: 150px;
+	background: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.khung2 .b13{
+	clear: both;
+	float: left;
+	width: 420px;
+	height: 210px;
+	background: white;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 180px;
+}
+.khung2 .b14{
+	float: left;
+	width: 305px;
+	height: 210px;
+	background: white;
+	margin-top: 20px;
+	margin-right: 125px;
+	border-radius: 40px;
+
+}
+.khung2 .b15{
+	float: left;
+	width: 420px;
+	height: 235px;
+	background: white;
+
+}

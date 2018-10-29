@@ -1,0 +1,598 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.khung {
+	width: 100%;
+	height: 2070px;
+	background: white;
+}
+.khung .line{
+	width: 100%;
+	height: 10px;
+	background: blue;
+}
+.khung .head{
+	width: 100%;
+	height: 200px;
+	background: white;
+}
+.head .logo{
+	float: left;
+	width: 20%;
+	height: 150px;
+	/*background: blue;*/
+	margin-top: 25px;
+	margin-left: 5%;	
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.head .menu{
+	float: right;
+	width: 50%;
+	height: 200px;
+	/*background: black;*/
+}
+.menu .menu1{
+	margin: 0 auto;
+	width: 80%;
+	height: 50px;
+	background: blue;
+}
+.menu1 ul{
+	width: 100%;
+	height: 100%
+	/*background: gray;*/
+	padding: 0%;
+	text-align: center;
+
+}
+.menu1 ul li{
+	float: left; 	
+	list-style: none;
+	display: block;
+	width: 25%;
+	height: 100%;
+	/*background: #1AC9FF;*/
+}
+.menu1 ul li a{
+	text-align: justify;
+	font-size: 20px;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+}
+.menu1 ul li a:hover{
+	color: red;
+	/*background: gray;*/
+}
+.menu .menu2{
+	margin: 0 auto;
+	width: 80%;
+	height: 50px;
+	/*background: white;*/
+}
+.menu .diff{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.menu2 ul{	
+	width: 100%;
+	height: 100%
+	/*background: gray;	*/
+	padding: 10px 5px;
+	text-align: center;
+
+}
+.menu2 ul li{
+	float: left;
+	width: 5%;
+	height: 50%;
+	padding: 5px;
+	list-style: none;
+	padding: 0% 1%;
+
+
+}
+.menu2 ul li img{
+	width: 100%;
+	height: 100%;
+}
+.menu2 .search{
+	float: right;
+	width: 300px;
+	height: 30px;
+	background: white;
+	padding: 0px;
+	border: 2px solid gray;
+}
+.search p{
+	float: left;
+	color: gray;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 3px 10px;
+}
+.search img{
+	float: right;
+	width: 30px;
+	height: 30px;
+}
+.menu .menu3{
+	width: 100%;
+	height: 60px;
+	/*background: white;*/
+}
+.menu3 ul{
+	width: 100%;
+	height: 100%
+	/*background: gray;*/
+	padding: 0%;
+	text-align: center;
+
+}
+.menu3 ul li{
+	float: left; 	
+	list-style: none;
+	display: block;
+	width: 16%;
+	height: 100%;
+	/*background: #1AC9FF;*/
+}
+.menu3 ul li a{
+	text-align: justify;
+	font-size: 25px;
+	line-height: 60px;
+	color: gray;
+	text-decoration: none;
+}
+.menu3 ul li a:hover{
+	color: blue;
+}
+.khung .pic{
+	clear: both;
+	width: 100%;
+	height: 450px;
+	/*padding-top: 20px;*/
+	margin-top: 20px;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+	/*padding: 2.5% 0%;*/
+}
+.khung .content1{
+	width: 100%;
+	height: 300px;
+	background: blue;
+}
+.content1 .box{
+	float: left;
+	width: 35%;
+	height: 100%;
+	background: blue;
+}
+.box .pic1{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.pic1 img{
+	width: 100%;
+	height: 100%;
+}
+.box a{
+	text-decoration: none;
+}
+.box h4{
+	color: white;
+	font-size: 20px;
+	line-height: 40px;
+	display: block;
+	width: 30%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.box p{
+	float: right;
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	text-align: justify-all;
+	padding-right: 10px;
+}
+.content1 .box1{
+	float: left;
+	width: 30%;
+	height: 100%;
+	background: #007DA3;
+}
+.box1 .pic2{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.pic2 img{
+	width: 100%;
+	height: 100%;
+}
+.box1 a{
+	text-decoration: none;
+}
+.box1 h4{
+	color: white;
+	font-size: 20px;
+	line-height: 40px;
+	display: block;
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.box1 p{
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	text-align: justify-all;
+}
+.khung .content2{
+	margin: 0 auto;
+	width: 90%;
+	height: 720px;
+	/*background: white;*/
+	margin-top: 10px;
+}
+.content2 .box2{
+	width: 100%;
+	height: 300px;
+	/*background: green;*/
+}
+.content2 h2{
+	color: blue;
+	font-size: 35px;
+	line-height: 50px;
+}
+.box2 .title1{
+	float: left;
+	width: 35%;
+	height: 100%;
+	/*background: red;*/
+}
+.title1 .pic3{
+	width: 100%;
+	height: 251px;
+	/*background: green;*/
+}
+.pic3 img{
+	width: 100%;
+	height: 100%;
+}
+.box2 .text1{
+	float: left;
+	width: 35%;
+	height: 250px;
+	/*background: red;*/
+	margin-top: 50px;
+}
+.text1 p{
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+	padding-left: 10px;
+}
+.text1 .more{
+	width: 25%;
+	height: 40px;
+	background: blue;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.more a{
+	text-decoration: none;
+	color: white;
+}
+.more p{
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+}
+.more a:hover{
+	color: red;
+}
+.box2 .diff{
+	margin-right: 5%;
+	margin-left: 2%;
+}
+.box2 .title2{
+	float: left;
+	width: 23%;
+	height: 100%;
+	/*background: red;*/
+}
+.title2	 .article1{
+	width: 100%;
+	height: 100px;
+	/*background: #007ACC;*/
+	margin-top: 25px;
+}
+.article1 .pic4{
+	float: left;
+	width: 30%;
+	height: 70px;
+	margin-right: 5%;
+}
+.pic4 img{
+	width: 100%;
+	height: 100%;
+}
+.article1 .text2{
+	float: left;
+	width: 65%;
+	height: 20px;
+	/*background: green;*/
+}
+.text2 p{
+	color: blue
+	font-style: italic;
+	font-size: 15px;
+}
+.article1 p{
+	color: black;
+	font-size: 16px;
+	height: 30px;
+}
+.content2 .box3{
+	width: 100%;
+	height: 300px;
+	/*background: gray;*/
+	margin-top: 30px;
+}
+.box3 .title3{
+	float: left;
+	width: 25%;
+	height: 100%;
+	/*background: red;*/
+}
+.title3 h5{
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+}
+.title3 p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+}
+.title3 a{
+	color: blue;
+	font-size: 16px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.title3 a:hover{
+	color: red;
+}
+.box3 .title4{
+	float: left;
+	width: 25%;
+	height: 200px;
+	/*background: red;*/
+	margin-top: 50px;
+}
+.box3 .diff1{
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+}
+.title4 h5{
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+}
+.title4 p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+}
+.title4 a{
+	color: blue;
+	font-size: 16px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.title4 a:hover{
+	color: red;
+}
+.box3 .video{
+	float: left;
+	width: 15%;
+	height:100%;
+	/*background: red;*/
+}
+.box3 .diff2{
+	margin-right: 5%;
+}
+.video .video1{
+	width: 100%;
+	height: 150px;
+	/*background: green;*/
+}
+.video1 img{
+	width: 100%;
+	height: 100%;
+}
+.box3 .quick{
+	float: left;
+	width: 23%;
+	height: 220px;
+	/*background: red;*/
+	margin-top: 30px;
+}
+.quick .name{
+	float: left;
+	width: 40%;
+	height: 30px;
+	border: 1px solid gray;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.name a{
+	color: gray;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 30px;
+}
+.name p{
+	padding: 0px 10%;
+}
+.quick .number{
+	float: right;
+	width: 40%;
+	height: 30px;
+	border: 1px solid gray;
+	margin-top: 10px;
+}
+.number a{
+	color: gray;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 30px;
+}
+.number p{
+	padding: 0px 10%;
+}
+.quick .message{
+	clear: both;
+	margin: 0 auto;
+	width: 98%;
+	height: 70px;
+	border: 1px solid gray;
+
+}
+.message a{
+	color: gray;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 30px;
+}
+.message p{
+	padding: 0px 5%;
+}
+.quick .sign{
+	float: right;
+	width: 70px;
+	height: 35px;
+	background: blue;
+	margin-top: 20px;
+}
+.sign a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+.sign a:hover{
+	color: red;
+}
+.sign p{
+	line-height: 35px;
+	padding: 0px 10px;
+}
+.content2 .box4{
+	width: 100%;
+	height: 80px;
+	/*background: black;*/
+}
+.box4 .b1{
+	float: left;
+	width: 47.7%;
+	height: 80px;
+	background: blue;
+	text-align: center;
+}
+.b1 p{
+	color: white;
+	font-size: 40px;
+	height: 50px;
+	padding: 15px 0px;
+}
+.box4 .b2{
+	float: right;
+	width: 47.5%;
+	height: 80px;
+	background: black;
+	text-align: center;
+
+}
+.b2 p{
+	color: white;
+	font-size: 40px;
+	height: 50px;
+	padding: 15px 0px;
+}
+.khung .content3{
+	width: 100%;
+	height: 250px;
+	background: gray;
+
+}
+.content3 .box5{
+	width: 90%;
+	height: 200px;
+	/*background: gray;*/
+	margin-left: 5%;
+	padding: 50px 0px;
+
+}
+.box5 .body{
+	float: left;
+	width: 14%;
+	height: 200px;
+	/*background: white;*/
+}
+.body ul{
+	width: 100%;
+	height: 200px;
+}
+.body a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+}
+.body ul li a:hover{
+	color: red;
+}
+.body h4{
+	color: white;
+	font-size: 30px;
+	line-height: 40px;
+
+}
+.body ul li{
+	list-style: none;
+	color: gray;
+}
+.box5 .diff3{
+	margin-right: 14.5%;
+	margin-left: 14.5%;
+}
+.box5 .diff4{
+	float: right;
+}
+.khung .footer{
+	width: 100%;
+	height: 100px;
+	background: black;
+}

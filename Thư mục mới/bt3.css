@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.khung{
+	width: 100%;
+	height: 1500px;
+	background: pink;
+}
+.khung .line{
+	width: 100%;
+	height: 1%;
+	background: #00C3FF;
+}
+.khung .head{
+	width: 100%;
+	height: 15%;
+	background: blue;
+}
+.head .logo{
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-left: 5%;
+}
+
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.head .menu{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+
+}
+.menu .menu1{
+	width: 100%;
+	height: 30%;
+	background: pink;
+}
+.menu1 ul{
+	margin: 0;
+	width: 100%;
+	height: 100%
+	background: gray;
+	padding: 0px 10%;
+
+}
+.menu1 ul li{
+	float: left; 	
+	list-style: none;
+	display: block;
+	width: 20%;
+	height: 100%;
+	background: #1AC9FF;
+}
+.menu1 ul li a{
+	margin: 0;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+}
+.menu1 ul li a:hover{
+	color: red;
+	background: gray;
+}
+.menu .menu2{
+	width: 100%;
+	height: 30%;
+	background: pink;
+}
+.menu2 ul{	
+	width: 100%;
+	height: 100%
+	background: gray;	
+
+}
+.menu2 ul li{
+	float: left;
+	width: 5%;
+	height: 50%;
+	padding: 5px;
+	list-style: none;
+	padding: 0% 1%;
+
+}
+.menu2 ul li img{
+	width: 100%;
+	height: 100%;
+}
+.menu2 ul .search{
+	float: right;
+	width: 40%;
+	height: 40px;
+	background: green;
+}
+.search p{
+	float: left;
+	color: gray;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 2px 10px;
+}
+.search img{
+	float: right;
+	width: 50%;
+	height: 50%;
+}
+.menu .menu3{
+	width: 100%;
+	height: 30%;
+	background: pink;
+}
+.menu3 ul{
+	margin: 0;
+	width: 100%;
+	height: 100%
+	background: gray;
+	padding: 0px 10%;
+
+}
+.menu3 ul li{
+	float: left; 	
+	list-style: none;
+	display: block;
+	width: 20%;
+	height: 100%;
+	background: #1AC9FF;
+}
+.menu3 ul li a{
+	margin: 0;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+}
+.menu3 ul li a:hover{
+	color: red;
+	background: gray;
+}
+.khung .pic{
+	width: 100%;
+	height: 30%;
+
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.khung .content1{
+	width: 100%;
+	height: 20%;
+	background: blue;
+}
+.content1 .box{
+	width: 35%;
+	height: 100%;
+	background: #007DA3;
+}
+.box .pic1{
+	width: 15%;
+	height: 10%;
+	margin: 0 auto;
+}
+.pic1 img{
+	width: 100%;
+	height: 100%;
+}

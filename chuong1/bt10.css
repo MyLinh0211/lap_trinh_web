@@ -1,0 +1,119 @@
+.khung{
+	width: 1000px;
+	height: 775px;
+	background: white;
+	margin: 0 auto;
+}
+.khung .b1{
+	width: 1000px;
+	height: 98px;
+	background: #7f7f00;
+	margin-bottom: 2px;
+
+}
+.khung .b2{
+	float: left;
+	width: 398px;
+	height: 123px;
+	background: #bfbf00;
+	margin-right: 2px;
+}
+.khung .b3{
+	float: left;
+	width: 200px;
+	height: 123px;
+	background: #bf5f00;
+	margin-right: 2px;
+}
+.khung .b4{
+	float: left;
+	width: 398px;
+	height: 123px;
+	background: #ff7f00;
+	margin-bottom: 2px;
+}
+.khung .b5{
+	clear: both;
+	float: left;
+	width: 398px;
+	height: 123px;
+	background: #00bf00;
+	margin-right: 2px;
+}
+.khung .b6{
+	float: left;
+	width: 200px;
+	height: 123px;
+	background: #000000;
+	margin-right: 2px;
+}
+.khung .b7{
+	float: left;
+	width: 398px;
+	height: 123px;
+	background: #5fbf00;
+	margin-bottom: 2px;
+}
+.khung .b8{
+	clear: both;
+	float: left;
+	width: 398px;
+	height: 123px;
+	background: #000000;
+	margin-right: 2px;
+}
+.khung .b9{
+	float: left;
+	width: 200px;
+	height: 123px;
+	background: #cccccc;
+	margin-right: 2px;
+}
+.khung .b10{
+	float: left;
+	width: 398px;
+	height: 123px;
+	background: #ff7f00;
+	margin-bottom: 2px;
+}
+.khung .b11{
+	clear: both;
+	width: 1000px;
+	height: 98px;
+	background: #FFD700;
+	margin-bottom: 2px;
+}
+.khung .b12{
+	float: left;
+	width: 248.5px;
+	height: 148px;
+	background: #000000;
+	margin-right: 2px;
+}
+.khung .b13{
+	float: left;
+	width: 248.5px;
+	height: 148px;
+	background: #ff7f00;
+	margin-right: 2px;
+}
+.khung .b14{
+	float: left;
+	width: 248.5px;
+	height: 148px;
+	background: #e5e5e5;
+	margin-right: 2px;
+}
+.khung .b15{
+	float: left;
+	width: 248.5px;
+	height: 148px;
+	background: #ff7f00;
+	margin-bottom: 2px;
+}
+.khung .b16{
+	clear: both;
+	width: 1000px;
+	height:48px;
+	background: #007f00;
+}
